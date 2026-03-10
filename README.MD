@@ -84,6 +84,12 @@ Open in browser
 http://127.0.0.1:5000
 ```
 
+render deployement live
+
+```
+https://ai-resume-analyzer-mu53.onrender.com
+```
+
 ---
 
 ## Future Improvements
