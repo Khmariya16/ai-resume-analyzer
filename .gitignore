@@ -1,14 +1,4 @@
-# Python
-__pycache__/
+.venv
+__pycache__
 *.pyc
-*.pyo
-.venv/
-venv/
-*.egg-info/
-
-# Environment variables
-.env
-
-# OS files
 .DS_Store
-Thumbs.db
