@@ -1,0 +1,9 @@
+flask
+pandas
+spacy
+scikit-learn
+pdfplumber
+python-docx
+pytesseract
+Pillow
+gunicorn
