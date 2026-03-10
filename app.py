@@ -35,20 +35,18 @@ def analyze():
 
     # extract skills
     resume_skills = extract_skills(resume_text)
-    
 
     # calculate similarity
     score = calculate_similarity(resume_text, job_description)
 
-    # example missing skills (you can improve later)
+    # missing skills
     missing_skills = recommend_skills(resume_text, job_description)
 
     # suggestions based on score
     suggestion = resume_suggestions(score, missing_skills)
-    
-    
+
     found_keywords, missing_keywords = ats_keyword_scan(resume_text, job_description)
-    
+
     return render_template(
         "index.html",
         score=score,
@@ -57,16 +55,10 @@ def analyze():
         suggestion=suggestion,
         found_keywords=found_keywords,
         missing_keywords=missing_keywords
-        
     )
 
 
+# SINGLE correct entry point for Render
 if __name__ == "__main__":
-    app.run(debug=True)
-
-if __name__ == "__main__":
-    import os
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
-# Runs web app
-# connects all modules
