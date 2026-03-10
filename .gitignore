@@ -1,7 +1,14 @@
-.venv
-__pycache__
-uploads
+# Python
+__pycache__/
 *.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Environment variables
+.env
+
+# OS files
 .DS_Store
-*.pdf
-*.png
+Thumbs.db
