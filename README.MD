@@ -54,7 +54,7 @@ Dashboard Visualization
 Clone the repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/ai-resume-analyzer.git
+git clone https://github.com/Khmariya16/ai-resume-analyzer.git
 cd ai-resume-analyzer
 ```
 
